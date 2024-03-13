@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  border: 1px solid #027780;
+  border-radius: 4rem;
+  display: flex;
+  background-color:aquamarine;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border-right: 1px solid #027780;
+  max-width: 16rem;
+}
+
+.book:last-child {
+  border-right: 0;
+}
+
+.books-list {
+  max-width: 20rem;
+  margin-right: 3rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  border-right: 2px solid #027780;
+}
+
+.books-list ul {
+  margin-left: auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.books-list li {
+  padding-top: 0.5rem;
+}
+
+.book-image {
+  max-height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.raamat-data  {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-title-author {
+  padding-top: 1rem;
+}
+
+.book-title-author p {
+  padding-top: 1rem;
+}
